@@ -1,0 +1,9 @@
+random
+cs50
+Flask
+Flask-Session
+requests
+csv
+words
+datetime
+time
