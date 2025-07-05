@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Password Success
+{% endblock %}
+
+{% block main %}
+     <form action="/passreset" method="post">
+         <h1>Changing Password to new password was successful!</h1>
+         <h2>Click <a href="/">here</a> to go back.</h2>
+     </form>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    News
+{% endblock %}
+
+{% block main %}
+    <form action="/news" method="get"></form>
+    <h1>NEWS</h1>
+    <h4>__________________________________________</h4>
+    <table class="table table-striped table-hover">
+        <thead>
+        <tr>
+            <th><h1>Version 1</h1></th>
+        </tr>
+        </thead>
+        <tbody>
+            <th>
+            <h1>Release!</h1>
+            <h1>Version 2 (v2) coming soon!</h1>
+            </th>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th><h5>---You've All Caught up!---</h5></th>
+            </tr>
+        </tfoot>
+{% endblock %}

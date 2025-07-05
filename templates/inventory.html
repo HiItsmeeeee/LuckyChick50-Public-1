@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Inventory
+{% endblock %}
+{% block main %}
+    <h1>INVENTORY</h1>
+    <h4>________________________________</h4>
+        <div class="border border-success p-3 mb-2">
+            <h1>
+                 <ul>Chick: <span class="border border-5">{{ chick }}</span></ul>
+                 <ul>Happy Chick: <span class="border border-5">{{ happy_chick }}</span></ul>
+                 <ul>Orange Chick: <span class="border border-5">{{ orange_chick }}</span></ul>
+                 <ul>Excited Chick: <span class="border border-5">{{ excited_chick }}</span></ul>
+                 <ul>Red Chick: <span class="border border-3">{{ red_chick }}</span></ul>
+                 <ul>Pink Chick: <span class="border border-5">{{ pink_chick }}</span></ul>
+                 <ul>Blue Chick: <span class="border border-5">{{ blue_chick }}</span></ul>
+
+                 <h1>(You can only hold a maximum of 1 chick per type of chick)</h1>
+            </h1>
+        </div>
+{% endblock %}

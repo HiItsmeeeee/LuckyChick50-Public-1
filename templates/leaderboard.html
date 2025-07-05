@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Leaderboard
+{% endblock %}
+{% block main %}
+    <span>
+        <h1>TOP 100!</h1>
+        <h2>Leaderboard</h2>
+        <h5>(Highest Cash)</h5>
+        <h4>__________________________________________________________________________________</h4>
+    </span>
+        <div class="border border-success p-3 mb-2">
+            <div class="border border-success p-3 mb-2">
+                <h5>
+                    {{ i }}.User: {{ lead }}
+                </h5>
+                <h5>
+                    Cash: {{ lead1 }}
+                </h5>
+        </div>
+{% endblock %}

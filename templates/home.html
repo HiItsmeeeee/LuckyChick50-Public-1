@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <h1>Hi, {{ user }},</h1>
+    <h1>welcome to LuckyChick50!</h1>
+    <h4>________________________________________________________</h4>
+    <div>
+        <h1>
+            <a><img src="/static/money_bag.jpg" alt="Money" width="50" height="42"></a>
+            Cash: {{ cash | usd }}
+        </h1>
+        <h1>Date: {{ day }} {{ monthz }} {{ year }}, {{ dayz }}</h1>
+        <h6>(Webapp created on 13 Dec)</h6>
+    </div>
+{% endblock %}

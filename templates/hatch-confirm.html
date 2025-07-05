@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Hatch Confirmation
+{% endblock %}
+
+{% block main %}
+    <form action="/hatch-confirm" method="post">
+        <div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
+        <h1>Are you sure you want to hatch a chick for $200.00? No refunds!</h1>
+        <button onclick="location.href='/hatched'" type="button">Yes</button>
+        <button onclick="location.href='/'" type="button">No</button>
+        </div>
+    </form>
+{% endblock %}
