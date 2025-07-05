@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Hatch
+{% endblock %}
+
+{% block main %}
+    <form action="/hatch" method="post">
+        <ul><a><img src="/static/egg.jpg" alt="LuckyChick50" width="500" height="500"></a></ul>
+        <button onclick="location.href='/hatch-confirm'" type="button">Hatch!</button>
+    </form>
+{% endblock %}
